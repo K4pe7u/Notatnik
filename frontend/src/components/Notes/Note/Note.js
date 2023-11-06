@@ -11,7 +11,7 @@ function Note(props) {
     props.onEdit({
       title: props.title,
       description: props.description,
-      id: props.id,
+      _id: props.id,
     });
   };
 

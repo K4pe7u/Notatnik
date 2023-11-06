@@ -15,7 +15,7 @@ class NoteActions {
 
       res.status(201).json(note);
     } catch (err) {
-      res.status(500).json({ message: 'Błąd zapisu notatki' });
+      res.status(422).json({ message: 'Błąd zapisu notatki' });
     }
   }
 
